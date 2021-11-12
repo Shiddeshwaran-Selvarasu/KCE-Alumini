@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/authprovider.dart';
 import 'package:provider/provider.dart';
 
-class MainPage extends StatefulWidget {
+/*class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
 
   @override
@@ -36,5 +36,4 @@ class _MainPageState extends State<MainPage> {
     );
   }
 }
-
-Widget buildLoading() => const CircularProgressIndicator();
+Widget buildLoading() => const CircularProgressIndicator();*/

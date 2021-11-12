@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kce_alumini/pages/signinpage.dart';
 
 import './pages/homepage.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const SignInPage(),
     );
   }
 }
