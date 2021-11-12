@@ -8,13 +8,24 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  int index = 0;
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Scaffold(
+    return Scaffold(
         body: Center(
           child: Text("Logged In"),
         ),
+      bottomNavigationBar: NavigationBar(
+        onDestinationSelected: (value) {
+          setState(() {
+            index = value;
+          });
+        },
+        selectedIndex: index,
+        destinations: [
+          NavigationDestination(icon: Icon(Icons.campaign_outlined), label: "Feeds"),
+          NavigationDestination(icon: Icon(Icons.feed_outlined), label: "Blog")
+        ],
       ),
     );
   }
