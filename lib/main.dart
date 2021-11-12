@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kce_alumini/pages/signinpage.dart';
+import 'package:kce_alumni/pages/signinpage.dart';
 
 import './pages/homepage.dart';
 
